@@ -1,0 +1,170 @@
+# AuthiX Vouch Bot (Formerly known as LegitAuth)
+
+A powerful Discord reputation and marketplace management bot designed for trading communities, service providers, and online marketplaces.
+
+AuthiX allows users to build trust through a moderated vouch system, customizable profiles, reputation badges, leaderboards, and scammer/DWC tracking. The bot is built using Discord.py and includes both user-facing and staff moderation features.
+
+## Project Background
+
+AuthiX was actively used and tested in production for over one year, serving more than **120,000 users** across **1,100+ Discord servers**.
+
+Development of this project included contributions from contracted developers. All intellectual property rights were transferred to the project owner under contractual agreement, granting full rights to modify, distribute, and license the source code.
+
+The project is now released publicly under the MIT License.
+
+## Features
+
+### Reputation & Vouch System
+
+* Positive and negative vouches
+* Manual approval workflow
+* Vouch moderation queue
+* Vouch status tracking
+* Vouch notifications via DM
+* Vouch approval and denial logging
+* Manual vouch recovery/approval system
+
+### User Profiles
+
+* Custom profile pages
+* Shop URL integration
+* Forum profile links
+* Product listings
+* Custom profile colors
+* Custom profile thumbnails
+* Recent vouch display
+* Reputation statistics
+
+### Badge System
+
+* Automatic badge rewards based on vouch count
+* Staff-assigned badges
+* Special community badges
+* Milestone badges:
+
+  * 50+ Vouches
+  * 100+ Vouches
+  * 500+ Vouches
+  * 1,000+ Vouches
+
+### Marketplace Tools
+
+* Product search system
+* Product listings on profiles
+* Seller discovery
+* Reputation tracking
+
+### Moderation Tools
+
+* Scammer marking system
+* DWC (Deal With Caution) system
+* Blacklist management
+* Staff approval commands
+* Appeal management
+* Role synchronization
+
+### Community Features
+
+* Leaderboards
+* Statistics tracking
+* Stored vouch counters
+* Invite system
+* Interactive help menu
+* Webhook logging
+
+## Commands
+
+### User Commands
+
+| Command              | Description                  |
+| -------------------- | ---------------------------- |
+| `+rep @user message` | Submit a positive vouch      |
+| `-rep @user message` | Submit a negative vouch      |
+| `+profile`           | View your profile            |
+| `+profile @user`     | View another user's profile  |
+| `+products`          | Add products to your profile |
+| `+shop`              | Set shop URL                 |
+| `+forum`             | Set forum URL                |
+| `+status`            | Check vouch status           |
+| `+top`               | View leaderboard             |
+| `+search`            | Search products              |
+| `+badges`            | View available badges        |
+| `+invite`            | Get bot invite               |
+
+### Staff Commands
+
+| Command        | Description              |
+| -------------- | ------------------------ |
+| `+manual`      | Manually approve a vouch |
+| `+mark`        | Mark a user as scammer   |
+| `+unmark`      | Remove scammer mark      |
+| `+dwc`         | Mark a user as DWC       |
+| `+undwc`       | Remove DWC mark          |
+| `/setbadge`    | Assign badges            |
+| `/removebadge` | Remove badges            |
+| `/setvouches`  | Add vouches manually     |
+
+## Requirements
+
+* Python 3.10+
+* Discord.py 2.x
+* aiohttp
+* psutil
+
+## Installation
+
+```bash
+git clone https://github.com/myth1caldev/AuthiX-Discord-VouchBot.git
+cd AuthiX-Discord-VouchBot
+
+pip install -r requirements.txt
+```
+
+Configure your `settings.json` file and start the bot:
+
+```bash
+python bot.py
+```
+
+## Database
+
+The bot uses JSON-based storage for:
+
+* Profiles
+* Vouches
+* Pending Vouches
+* Denied Vouches
+* Blacklists
+* Scammer Reports
+* DWC Reports
+* Guild Configuration
+
+## Intended Use
+
+AuthiX is ideal for:
+
+* Marketplace servers
+* Digital product communities
+* Service-selling communities
+* Middleman servers
+* Trading hubs
+* Freelancer communities
+
+## Support & Contact
+
+If you need help with setup, configuration, bug fixes, feature requests, or have any questions regarding the project, feel free to contact me directly.
+
+All contact information, social links, and other ways to reach me can be found on my personal website:
+
+**https://myth1cal.xyz**
+
+I try to respond to all legitimate inquiries as soon as possible.
+
+---
+
+If you use this project, consider leaving a ⭐ on GitHub. It helps support future development and improvements.
+
+## License
+
+This project is licensed under the MIT License.
+

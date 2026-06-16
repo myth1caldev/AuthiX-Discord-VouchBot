@@ -1,0 +1,30 @@
+{
+    "token": "YOUR_BOT_TOKEN",
+    "main_guild_id": 123456789012345678,
+    "main_guild_invite_url": "discord.gg/YOURSERVER",
+
+    "cooldown_seconds": 5,
+    
+    "global_project_name": "YOUR_PROJECT_NAME",
+    "global_footer_text": "Created by @paidbycrypto.",
+    "global_thumbnail_url": "YOUR_THUMBNAIL_URL",
+
+    "vouch_log_webhook": "YOUR_VOUCH_LOG_WEBHOOK_URL",
+    "bug_report_webhook": "YOUR_BUG_REPORT_WEBHOOK_URL",
+    "guild_log_webhook": "YOUR_GUILD_LOG_WEBHOOK_URL",
+
+    "pending_channel": 123456789012345678,
+    "blacklist_channel_id": 123456789012345678,
+    "mark_channel_id": 123456789012345678,
+    "dwc_channel_id": 123456789012345678,
+
+    "allowed_role_id": 123456789012345678,
+    "report_staff_role_id": 123456789012345678,
+    "appeal_staff_role_id": 123456789012345678,
+    "vouch_mod_role_id": 123456789012345678,
+    "moderator_team_role_id": 123456789012345678,
+
+    "scammer_role_id": 123456789012345678,
+    "dwc_role_id": 123456789012345678
+
+}
